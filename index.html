@@ -12,95 +12,39 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
 
-    <body>
-        <div class="sidenav">
-            <a href="#About">About</a>
-            <hr>
-            <a href="#Programming">Programming</a>
-            <hr>
-            <a href="#Modelling">Modelling & Animation</a>
-            <hr>
-            <a href="#Contact">Contact</a>
+    <body onload="selectSection('AboutButton')">
+        <div class="navbar">
+            <ul>
+                <li><a class="sectionButton" id="AboutButton" onclick="selectSection('AboutButton')">ABOUT</a></li>
+                <li><a class="sectionButton" id="ProgrammingButton" onclick="selectSection('ProgrammingButton')">PROGRAMMING</a></li>
+                <li><a class="sectionButton" id="AnimationButton" onclick="selectSection('AnimationButton')">ANIMATION</a></li>
+                <li><a class="sectionButton" id="ContactButton" onclick="selectSection('ContactButton')">CONTACT</a></li>
+            </ul>
         </div>
 
-        <div class="main">
-            <div id="About" class="mainPage">
-                <h1>About</h1>
-                My name is Alex Collings, I am am student in Game - Programming at St. Lawrence College.
-                <h3>Skills</h3>
-                C++:
-                <div class="meter">
-                    <span style="width: 99%"> &nbsp; Advanced </span>
-                </div>
-                C#:
-                <div class="meter">
-                    <span style="width: 99%"> &nbsp; Advanced </span>
-                </div>
-                HTML/CSS:
-                <div class="meter">
-                    <span style="width: 75%"> &nbsp; Intermediate </span>
-                </div>
-                Javascript:
-                <div class="meter">
-                    <span style="width: 50%"> &nbsp; Intermediate </span>
-                </div>
-                Unity:
-                <div class="meter">
-                    <span style="width: 95%"> &nbsp; Advanced </span>
-                </div>
-                Blender:
-                <div class="meter">
-                    <span style="width: 60%"> &nbsp; Intermediate </span>
-                </div>
+        <div class="mainwrapper">
+            <div id="About">
+                ABOUT
+                
+            </div>
+
+            <div id="Programming">
+                PROGRAMMING
+                
+            </div>
+
+            <div id="Animation">
+                ANIMATION
+                
             </div>
             
-            <hr>
-
-            <div id="Programming" class="mainPage">
-                <h1>Programming</h1>
-            </div>
-
-            <hr>
-
-            <div id="Modelling" class="mainPage">
-                <h1>Modelling & Animation</h1>
-                <p>Lately I've been dabbling in some 3D modelling and animation as a side project, here are some pieces I've worked on.</p>
-
-                <h3>Idle Animation</h3>
-                <img src="Assets/Idle Animation.gif" alt="Idle Animation">
-
-                <br />
-
-                <h3>Run Animation</h3>
-                <img src="Assets/Run Animation.gif" alt="Run Animation">
-
-                <br />
-
-                <h3>Walk Animation</h3>
-                <img src="Assets/Walk Animation.gif" alt="Walk Animation">
-
-                <br />
-
-                <h3>Wave Animation</h3>
-                <img src="Assets/Wave Animation.gif" alt="Wave Animation">
-
-                <br />
-
-                <h3>Anatomy Studies: Neck and Clavicle</h3>
-                <img src="Assets/Chest-Neck Area.PNG" alt="Chest-Neck Area 1">
-                <br />
-                <img src="Assets/Chest-Neck Area 2.PNG" alt="Chest-Neck Area 2">
-            </div>
-
-            <hr>
-
-            <div id="Contact" class="mainPage">
-                <h1>Contact</h1>
-                Phone: 1-289-716-5824 <br />
-                Email: alexandercollings@protonmail.com <br />
-                <a class="link" href="https://www.linkedin.com/in/alexander-collings-635b16192/" target="_blank">LinkedIn</a> <br />
-                <a class="link" href="https://https://github.com/ACollings01" target="_blank">GitHub</a>
+            <div id="Contact">
+                CONTACT
+                
             </div>
         </div>
+
+        <!--Scripts loaded at the bottom so other elements are loaded and displayed quicker-->
+        <script src="scripts.js"></script>
     </body>
 </html>
