@@ -45,6 +45,11 @@ body
 
 .navbar li a
 {
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
     text-decoration: none;
     letter-spacing: 0.15em;
     font-size: medium;
