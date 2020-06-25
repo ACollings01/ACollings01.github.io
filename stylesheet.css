@@ -1,7 +1,10 @@
 body
 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background-color: whitesmoke;
+    font-size: large;
+    letter-spacing: 0.15em;
+    color: whitesmoke;
+    background-color: rgb(80, 80, 80);
     margin: 0;
     height: 100%;
     overflow: hidden;
@@ -50,6 +53,7 @@ body
     transition-timing-function: ease;
     transition-delay: 0s;
 
+    user-select: none;
     text-decoration: none;
     letter-spacing: 0.15em;
     font-size: medium;
