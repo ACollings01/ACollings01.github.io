@@ -1,3 +1,4 @@
+// Called when a button is selected, dims the other buttons and sets the selected one to lightblue, as well as scrolling the associated section of the page into view
 function selectSection(sectionButtonID)
 {
     var sectionButtons = ["AboutButton", "ProgrammingButton", "AnimationButton", "ContactButton"];
@@ -7,6 +8,7 @@ function selectSection(sectionButtonID)
     document.getElementById(sectionButtonID.substring(0, sectionButtonID.length -6)).scrollIntoView(true);
 }
 
+// Sets the background colour for a button back to the default
 function dimButton(sectionButtonID)
 {
     document.getElementById(sectionButtonID).style.backgroundColor = 'rgb(55, 55, 55)';

@@ -4,7 +4,6 @@ body
     font-size: large;
     letter-spacing: 0.15em;
     color: whitesmoke;
-    background-color: rgb(80, 80, 80);
     margin: 0;
     height: 100%;
     overflow: hidden;
@@ -40,7 +39,7 @@ body
 
 .navbar li:last-child
 {
-    float:right;
+    float: right;
     border-left: solid;
     border-width: 1px;
     border-color: rgb(80, 80, 80);
@@ -73,26 +72,9 @@ body
     cursor: pointer;
 }
 
-#About
+.page
 {
+    background: linear-gradient(55deg, rgb(136, 136, 136) 0%, rgb(159, 199, 212) 50%, rgb(116, 146, 170) 100%);
     padding-top: 50px;
-    margin-bottom: 2000px;
-}
-
-#Programming
-{
-    padding-top: 50px;
-    margin-bottom: 2000px;
-}
-
-#Animation
-{
-    padding-top: 50px;
-    margin-bottom: 2000px;
-}
-
-#Contact
-{
-    padding-top: 50px;
-    margin-bottom: 2000px;
+    padding-bottom: 2000px;
 }
