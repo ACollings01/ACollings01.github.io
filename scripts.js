@@ -18,8 +18,8 @@ function dimButton(sectionButtonID)
 // Used as a reset since page didn't want to scroll back to ABOUT when page loads
 function startup()
 {
-    // Had to delay this slightly for the page to load, I should find a better way since this might not work for slower connections
+    // Had to delay this slightly for the page to load, I should find a better way since this might not work as intended with slower connections
     setTimeout( function() {
         selectSection("AboutButton");
-    }, 10);
+    }, 0.1);
 }
