@@ -74,7 +74,13 @@ body
 
 .page
 {
-    background: linear-gradient(55deg, rgb(136, 136, 136) 0%, rgb(97, 97, 97) 50%, rgb(70, 70, 70) 100%);
+    background: linear-gradient(55deg, rgb(116, 116, 116) 0%, rgb(77, 77, 77) 50%, rgb(50, 50, 50) 100%);
     padding-top: 50px;
     padding-bottom: 2000px;
+}
+
+.sectionBody
+{
+    padding: 3%;
+    padding-top: 1.5%;
 }
